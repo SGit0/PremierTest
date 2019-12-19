@@ -31,7 +31,7 @@ public class AppTest
     public void testApp()
     {
     	App a = new App();
-        Assert.assertEquals(121,a.fact(5));
+        Assert.assertEquals(120,a.fact(5));
         this.assertEquals(1, a.fact(1));
     }
 }
